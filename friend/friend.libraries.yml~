@@ -1,0 +1,7 @@
+friend:
+  version: 1.x
+  css:
+    theme:
+      css/friend.css: {}
+  js:
+    js/growDiv.js: {}

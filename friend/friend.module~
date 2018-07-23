@@ -1,0 +1,20 @@
+<?php
+
+function friend_friend_list(){
+
+  return t('The Friend module creates a block.  In Drupal under Structure, go to Block Layout and place the block.  To restrict the block so that each user sees only their friend activity on their own acount page, enter this code for the "PHP restrict to certain pages. Note this assumes your url for each account is yourdomainname.com/user/theirUserID.  If you have additional "/"s, add one to the $arg[] for each additional / before the user id.  Remember to include the php tags: </br></br>"  
+$user = \Drupal\user\Entity\User::load(\Drupal::currentUser()->id());
+$uid=$user->get(\'uid\')->value;
+$current_path = \Drupal::service(\'path.current\')->getPath();
+$arg = explode(\'/\', $current_path);
+if ($arg[1]  == \'user\'  && $arg[2] == $uid) {
+  return TRUE;
+}
+else {
+  return FALSE;
+}
+');
+
+}
+
+
