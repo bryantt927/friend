@@ -1,4 +1,4 @@
-# friend
+# friend flag
 Friend Module for Drupal
 Very simple "friend" module built upon Flag module. Need to create a user flag called friend. Then install this module. It will create block for friend activity. The block is table with two columns: friend requests (with a link to add the user as a friend), and a friends column. Principle is a user clicks the flag on another user, that is a friend request. If two users each click the friend flag on the other's profile page, they are friends.
 
