@@ -1,10 +1,10 @@
 <?php
 
-namespace Drupal\friend\Controller;
+namespace Drupal\friend_flag\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 
-class FriendController extends ControllerBase {
+class FriendFlagController extends ControllerBase {
 
   public function showFriends() {
     return array(

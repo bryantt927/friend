@@ -184,7 +184,7 @@ class FriendBlock extends Blockbase {
 					$url->setOptions(['absolute' => TRUE, 'query' => ['token' => $token]]);
 					$friend_url = $url->toString();
 
-	    			$friendString .= "<li><a href='" . $home_url . "user/" . $Friend_ID ."'>" . $Friend_Name . "</a><div class='flag flag-friend js-flag-friend-" . $Friend_ID ." action-flag'><a title='' href='" . $friend_url . "' class='use-ajax' rel='nofollow'>Add as friend</a></div> " . $strNew . "</li>";
+	    			$friendString .= "<li><a href='" . $home_url . "user/" . $Friend_ID ."'>" . $Friend_Name . "</a></li></td><td><div class='flag flag-friend js-flag-friend-" . $Friend_ID ." action-flag'><a title='' href='" . $friend_url . "' class='use-ajax' rel='nofollow'>Add as friend</a></div> " . $strNew . "!!";
 				}else{
 					$Count -= 1;
 				}

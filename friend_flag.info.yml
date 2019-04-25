@@ -1,7 +1,8 @@
-name: Friend
+name: Friend Flag
 description: Adds a block of friends, mutual flags, users who have eached flagged each other with friend flag
 core: '8.x'
 type: module
 package: Flags
 dependencies:
  - flag
+ - flag_follower
