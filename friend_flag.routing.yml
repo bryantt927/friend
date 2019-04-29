@@ -1,6 +1,0 @@
-friend:
-  path: 'friend_list'
-  defaults:
-    _controller: '\Drupal\friend_flag\Controller\FriendFlagController::showfriends'
-  requirements: 
-    _permission: 'access content'

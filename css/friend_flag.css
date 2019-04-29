@@ -13,6 +13,11 @@ table.friendTable{
 
 .friendRequests .flag-friend {
 	float:right;
+        display:inline-block;
+}
+
+.flag-friend-name{
+    display:inline-block;
 }
 
 .friendTable td ul {
